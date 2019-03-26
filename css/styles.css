@@ -1,0 +1,80 @@
+
+.dark-background {
+    background-color: black;
+    color: white;
+}
+
+.light-background {
+  background-color: white;
+  color: black;
+}
+
+.basic-background {
+  background-color: pink;
+  color: black;
+}
+
+body {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  font-family: "Times",Times,serif;
+  background-color: pink;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #82c5d8;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #192123;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #192123;
+  }
+
+
+
+img {
+  margin-left: 280px;
+  padding-top: 120px;
+
+}
+
+h1 {
+  padding-left: 400px;
+  font-weight: bold;
+
+}
+
+h2 {
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+.sidenav a{
+  margin-top: 30px;
+}
+
+
+#dark {
+  margin-left: 19px;
+}
+
+#basic {
+  margin-left: 45px;
+  margin-top: 10px;
+}
